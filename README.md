@@ -1,4 +1,4 @@
-# SheHacks2022_HO
+# sheHacks2022_HO
 
 Hello guys
 
