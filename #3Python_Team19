@@ -1,0 +1,62 @@
+#Asking Player 1 for input
+print("_________________________________________")
+print("Welcome to the Hangman Game!")
+print("The Game is about to Start.......")
+print()
+word=input("Player 1, please enter a word: ")
+AlwdGuess=input("Please suggest the number of guesses allowed: ")
+
+print("The word you have chosen is: "+word)
+print("The number of allowed guesses: "+AlwdGuess)
+print('')
+print("End of Turn for Player #1")
+print("Please turn to Player #2")
+print("_________________________________________")
+
+print()
+print()
+
+#Define variables
+display = "_ "* len(word)#display the slots
+ans=list(word)
+count=0
+guessed_word=[]
+guessed=False
+
+#Aksing Player 2 to take guesses
+print("_________________________________________")
+print("Welcome Player #2. Let's start guessing!")
+print()
+print("WORD: "+display)
+print("GUESS LEFT: "+str(int(AlwdGuess)-count))
+print()
+
+#Check is the guess is correct
+while guessed==False and count<int(AlwdGuess):
+    guess=input("Please enter your guess: ") #player 2 enter guess
+    if guess not in ans:
+        print("Sorry, the letter is not part of the word.")
+        count=count+1
+        print()
+        
+    elif guess in ans:
+        print("Awesome, the letter exists in the word!")
+        count=count+1
+        
+    else:
+        print("Congratulations! You've guessed the word.")
+        
+        guessedList=list(display)
+        index=0
+        while index<len(word):
+            if guess == ans[i]:
+                guessedList[index]=guess
+            i=i+1
+        display= "".join(guessedList)
+
+    print("WORD: "+display)
+    print("GUESS LEFT: "+str(int(AlwdGuess)-count))
+    
+    
+    
+    
