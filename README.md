@@ -1,7 +1,3 @@
 # sheHacks2022_HO
 
-Hello guys
-
-Should we think of a killer team name?
-
-Team Alex, Katherine, Starchild
+#Team Members: Katherine Peng, Alexandra Pathammavong, Jessica Randall
