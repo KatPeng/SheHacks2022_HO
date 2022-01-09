@@ -23,14 +23,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
     <div class="w3-center w3-padding-16">Music Review by The Incredibles</div>
   </div>
 </div>
-  
+
 <!-- !PAGE CONTENT! -->
 <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
 
   <hr id="about">
 
   <!-- About Section -->
-  <div class="w3-container w3-padding-32 w3-center">  
+  <div class="w3-container w3-padding-32 w3-center">
     <h3>About Us</h3><br>
     <div class="w3-padding-32">
       <h4><b>Lorem ipsum dolor sit amet</b></h4>
@@ -51,6 +51,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
       <p>Ranking: 5 out 5</p>
       <p>#Country#Soul#Guitar</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <ul class="cloud" role="navigation" aria-label="Webdev tag cloud">
+          <li><a data-weight="1" href="/tag/rock">Rock</a></li>
+          <li><a data-weight="2" href="/tag/folk">Folk</a></li>
+          <li><a data-weight="3" href="/tag/softrock">SoftRock</a></li>
+        </ul>
+
     </div>
     <div class="w3-quarter">
       <img src="https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg" alt="Abbey Road" style="width:100%">
@@ -58,6 +64,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
       <p>Ranking: 5 out 5</p>
       <p>#Classic#Rock</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <ul class="cloud" role="navigation" aria-label="Webdev tag cloud">
+        <li><a data-weight="1" href="/tag/rock">Rock</a></li>
+        <li><a data-weight="2" href="/tag/pop">Pop</a></li>
+        <li><a data-weight="3" href="/tag/classic">Classic</a></li>
+      </ul>
     </div>
     <div class="w3-quarter">
       <img src="https://m.media-amazon.com/images/I/61lMwNQGYbL._AC_SL1200_.jpg" alt="21" style="width:100%">
@@ -65,11 +76,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
       <p>Ranking: 5 out 5</p>
       <p>#Pop#Country</p>
       <p>Ectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <ul class="cloud" role="navigation" aria-label="Webdev tag cloud">
+        <li><a data-weight="1" href="/tag/Soul">Rock</a></li>
+        <li><a data-weight="2" href="/tag/pop">Pop</a></li>
+        <li><a data-weight="3" href="/tag/RnB">RnB</a></li>
+      </ul>
     </div>
-    
- 
+
+
   </div>
-  
+
 
   <!-- Pagination -->
   <div class="w3-center w3-padding-32">
@@ -79,7 +95,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
       <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
     </div>
   </div>
-  
+
   <!-- Footer -->
   <footer class="w3-row-padding w3-padding-32">
     <div class="w3-third">
@@ -89,7 +105,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
       <p>Taste Across the Sea</p>
 
     </div>
-  
+
     <div class="w3-third">
       <h3>Connect with Us</h3>
       <ul class="w3-ul w3-hoverable">
@@ -100,11 +116,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
         <li class="w3-padding-16">
           <span class="w3-large">Facebook</span><br>
           <span>seddoeiusmodtemporetdolore</span>
-        </li> 
+        </li>
         <li class="w3-padding-16">
           <span class="w3-large">Instagram</span><br>
           <span>consecteturadipiscingtempor</span>
-        </li> 
+        </li>
       </ul>
     </div>
 
@@ -122,7 +138,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 function w3_open() {
   document.getElementById("mySidebar").style.display = "block";
 }
- 
+
 function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
